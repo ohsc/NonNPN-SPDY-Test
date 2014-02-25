@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7CEAF0F18BCE240002457D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CEAF0E18BCE240002457D0 /* Foundation.framework */; };
+		A7CEAF1118BCE240002457D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CEAF1018BCE240002457D0 /* CoreGraphics.framework */; };
+		A7CEAF1318BCE240002457D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CEAF1218BCE240002457D0 /* UIKit.framework */; };
+		A7CEAF1918BCE240002457D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7CEAF1718BCE240002457D0 /* InfoPlist.strings */; };
+		A7CEAF1B18BCE240002457D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF1A18BCE240002457D0 /* main.m */; };
+		A7CEAF1F18BCE240002457D0 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF1E18BCE240002457D0 /* SPAppDelegate.m */; };
+		A7CEAF2218BCE240002457D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CEAF2018BCE240002457D0 /* Main.storyboard */; };
+		A7CEAF2518BCE240002457D0 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF2418BCE240002457D0 /* SPViewController.m */; };
+		A7CEAF2718BCE240002457D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CEAF2618BCE240002457D0 /* Images.xcassets */; };
+		A7CEAF2E18BCE240002457D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CEAF2D18BCE240002457D0 /* XCTest.framework */; };
+		A7CEAF2F18BCE240002457D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CEAF0E18BCE240002457D0 /* Foundation.framework */; };
+		A7CEAF3018BCE240002457D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CEAF1218BCE240002457D0 /* UIKit.framework */; };
+		A7CEAF3818BCE240002457D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7CEAF3618BCE240002457D0 /* InfoPlist.strings */; };
+		A7CEAF3A18BCE240002457D0 /* NonNPN_SPDY_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF3918BCE240002457D0 /* NonNPN_SPDY_TestTests.m */; };
+		A7CEAF6718BCE260002457D0 /* NSURLRequest+SPDYURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF4518BCE260002457D0 /* NSURLRequest+SPDYURLRequest.m */; };
+		A7CEAF6818BCE260002457D0 /* SPDYCommonLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF4718BCE260002457D0 /* SPDYCommonLogger.m */; };
+		A7CEAF6918BCE260002457D0 /* SPDYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF4B18BCE260002457D0 /* SPDYFrame.m */; };
+		A7CEAF6A18BCE260002457D0 /* SPDYFrameDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF4D18BCE260002457D0 /* SPDYFrameDecoder.m */; };
+		A7CEAF6B18BCE260002457D0 /* SPDYFrameEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF4F18BCE260002457D0 /* SPDYFrameEncoder.m */; };
+		A7CEAF6C18BCE260002457D0 /* SPDYHeaderBlockCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF5118BCE260002457D0 /* SPDYHeaderBlockCompressor.m */; };
+		A7CEAF6D18BCE260002457D0 /* SPDYHeaderBlockDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF5318BCE260002457D0 /* SPDYHeaderBlockDecompressor.m */; };
+		A7CEAF6E18BCE260002457D0 /* SPDYOrigin.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF5618BCE260002457D0 /* SPDYOrigin.m */; };
+		A7CEAF6F18BCE260002457D0 /* SPDYProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF5818BCE260002457D0 /* SPDYProtocol.m */; };
+		A7CEAF7018BCE260002457D0 /* SPDYSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF5A18BCE260002457D0 /* SPDYSession.m */; };
+		A7CEAF7118BCE260002457D0 /* SPDYSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF5C18BCE260002457D0 /* SPDYSessionManager.m */; };
+		A7CEAF7218BCE260002457D0 /* SPDYSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF5E18BCE260002457D0 /* SPDYSettingsStore.m */; };
+		A7CEAF7318BCE260002457D0 /* SPDYSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF6018BCE260002457D0 /* SPDYSocket.m */; };
+		A7CEAF7418BCE260002457D0 /* SPDYStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF6218BCE260002457D0 /* SPDYStream.m */; };
+		A7CEAF7518BCE260002457D0 /* SPDYStreamManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF6418BCE260002457D0 /* SPDYStreamManager.m */; };
+		A7CEAF7B18BCE2C4002457D0 /* SPDYClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEAF7A18BCE2C4002457D0 /* SPDYClient.m */; };
+		A7CEAF7D18BCE4A0002457D0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CEAF7C18BCE4A0002457D0 /* CFNetwork.framework */; };
+		A7CEAF7F18BCE4A5002457D0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CEAF7E18BCE4A5002457D0 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7CEAF3118BCE240002457D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CEAF0318BCE240002457D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CEAF0A18BCE240002457D0;
+			remoteInfo = "NonNPN-SPDY Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7CEAF0B18BCE240002457D0 /* NonNPN-SPDY Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NonNPN-SPDY Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CEAF0E18BCE240002457D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7CEAF1018BCE240002457D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7CEAF1218BCE240002457D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7CEAF1618BCE240002457D0 /* NonNPN-SPDY Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NonNPN-SPDY Test-Info.plist"; sourceTree = "<group>"; };
+		A7CEAF1818BCE240002457D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7CEAF1A18BCE240002457D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7CEAF1C18BCE240002457D0 /* NonNPN-SPDY Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NonNPN-SPDY Test-Prefix.pch"; sourceTree = "<group>"; };
+		A7CEAF1D18BCE240002457D0 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		A7CEAF1E18BCE240002457D0 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		A7CEAF2118BCE240002457D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7CEAF2318BCE240002457D0 /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		A7CEAF2418BCE240002457D0 /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		A7CEAF2618BCE240002457D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7CEAF2C18BCE240002457D0 /* NonNPN-SPDY TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NonNPN-SPDY TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CEAF2D18BCE240002457D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A7CEAF3518BCE240002457D0 /* NonNPN-SPDY TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NonNPN-SPDY TestTests-Info.plist"; sourceTree = "<group>"; };
+		A7CEAF3718BCE240002457D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7CEAF3918BCE240002457D0 /* NonNPN_SPDY_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NonNPN_SPDY_TestTests.m; sourceTree = "<group>"; };
+		A7CEAF4418BCE260002457D0 /* NSURLRequest+SPDYURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+SPDYURLRequest.h"; sourceTree = "<group>"; };
+		A7CEAF4518BCE260002457D0 /* NSURLRequest+SPDYURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+SPDYURLRequest.m"; sourceTree = "<group>"; };
+		A7CEAF4618BCE260002457D0 /* SPDYCommonLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYCommonLogger.h; sourceTree = "<group>"; };
+		A7CEAF4718BCE260002457D0 /* SPDYCommonLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYCommonLogger.m; sourceTree = "<group>"; };
+		A7CEAF4818BCE260002457D0 /* SPDYDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYDefinitions.h; sourceTree = "<group>"; };
+		A7CEAF4918BCE260002457D0 /* SPDYError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYError.h; sourceTree = "<group>"; };
+		A7CEAF4A18BCE260002457D0 /* SPDYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYFrame.h; sourceTree = "<group>"; };
+		A7CEAF4B18BCE260002457D0 /* SPDYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYFrame.m; sourceTree = "<group>"; };
+		A7CEAF4C18BCE260002457D0 /* SPDYFrameDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYFrameDecoder.h; sourceTree = "<group>"; };
+		A7CEAF4D18BCE260002457D0 /* SPDYFrameDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYFrameDecoder.m; sourceTree = "<group>"; };
+		A7CEAF4E18BCE260002457D0 /* SPDYFrameEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYFrameEncoder.h; sourceTree = "<group>"; };
+		A7CEAF4F18BCE260002457D0 /* SPDYFrameEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYFrameEncoder.m; sourceTree = "<group>"; };
+		A7CEAF5018BCE260002457D0 /* SPDYHeaderBlockCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYHeaderBlockCompressor.h; sourceTree = "<group>"; };
+		A7CEAF5118BCE260002457D0 /* SPDYHeaderBlockCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYHeaderBlockCompressor.m; sourceTree = "<group>"; };
+		A7CEAF5218BCE260002457D0 /* SPDYHeaderBlockDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYHeaderBlockDecompressor.h; sourceTree = "<group>"; };
+		A7CEAF5318BCE260002457D0 /* SPDYHeaderBlockDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYHeaderBlockDecompressor.m; sourceTree = "<group>"; };
+		A7CEAF5418BCE260002457D0 /* SPDYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYLogger.h; sourceTree = "<group>"; };
+		A7CEAF5518BCE260002457D0 /* SPDYOrigin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYOrigin.h; sourceTree = "<group>"; };
+		A7CEAF5618BCE260002457D0 /* SPDYOrigin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYOrigin.m; sourceTree = "<group>"; };
+		A7CEAF5718BCE260002457D0 /* SPDYProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYProtocol.h; sourceTree = "<group>"; };
+		A7CEAF5818BCE260002457D0 /* SPDYProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYProtocol.m; sourceTree = "<group>"; };
+		A7CEAF5918BCE260002457D0 /* SPDYSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYSession.h; sourceTree = "<group>"; };
+		A7CEAF5A18BCE260002457D0 /* SPDYSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYSession.m; sourceTree = "<group>"; };
+		A7CEAF5B18BCE260002457D0 /* SPDYSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYSessionManager.h; sourceTree = "<group>"; };
+		A7CEAF5C18BCE260002457D0 /* SPDYSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYSessionManager.m; sourceTree = "<group>"; };
+		A7CEAF5D18BCE260002457D0 /* SPDYSettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYSettingsStore.h; sourceTree = "<group>"; };
+		A7CEAF5E18BCE260002457D0 /* SPDYSettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYSettingsStore.m; sourceTree = "<group>"; };
+		A7CEAF5F18BCE260002457D0 /* SPDYSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYSocket.h; sourceTree = "<group>"; };
+		A7CEAF6018BCE260002457D0 /* SPDYSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYSocket.m; sourceTree = "<group>"; };
+		A7CEAF6118BCE260002457D0 /* SPDYStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYStream.h; sourceTree = "<group>"; };
+		A7CEAF6218BCE260002457D0 /* SPDYStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYStream.m; sourceTree = "<group>"; };
+		A7CEAF6318BCE260002457D0 /* SPDYStreamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYStreamManager.h; sourceTree = "<group>"; };
+		A7CEAF6418BCE260002457D0 /* SPDYStreamManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYStreamManager.m; sourceTree = "<group>"; };
+		A7CEAF6518BCE260002457D0 /* SPDYTLSTrustEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYTLSTrustEvaluator.h; sourceTree = "<group>"; };
+		A7CEAF6618BCE260002457D0 /* SPDYZLibCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYZLibCommon.h; sourceTree = "<group>"; };
+		A7CEAF7918BCE2C4002457D0 /* SPDYClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDYClient.h; sourceTree = "<group>"; };
+		A7CEAF7A18BCE2C4002457D0 /* SPDYClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDYClient.m; sourceTree = "<group>"; };
+		A7CEAF7C18BCE4A0002457D0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A7CEAF7E18BCE4A5002457D0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7CEAF0818BCE240002457D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CEAF7F18BCE4A5002457D0 /* libz.dylib in Frameworks */,
+				A7CEAF7D18BCE4A0002457D0 /* CFNetwork.framework in Frameworks */,
+				A7CEAF1118BCE240002457D0 /* CoreGraphics.framework in Frameworks */,
+				A7CEAF1318BCE240002457D0 /* UIKit.framework in Frameworks */,
+				A7CEAF0F18BCE240002457D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CEAF2918BCE240002457D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CEAF2E18BCE240002457D0 /* XCTest.framework in Frameworks */,
+				A7CEAF3018BCE240002457D0 /* UIKit.framework in Frameworks */,
+				A7CEAF2F18BCE240002457D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7CEAF0218BCE240002457D0 = {
+			isa = PBXGroup;
+			children = (
+				A7CEAF1418BCE240002457D0 /* NonNPN-SPDY Test */,
+				A7CEAF3318BCE240002457D0 /* NonNPN-SPDY TestTests */,
+				A7CEAF0D18BCE240002457D0 /* Frameworks */,
+				A7CEAF0C18BCE240002457D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7CEAF0C18BCE240002457D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7CEAF0B18BCE240002457D0 /* NonNPN-SPDY Test.app */,
+				A7CEAF2C18BCE240002457D0 /* NonNPN-SPDY TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7CEAF0D18BCE240002457D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7CEAF7E18BCE4A5002457D0 /* libz.dylib */,
+				A7CEAF7C18BCE4A0002457D0 /* CFNetwork.framework */,
+				A7CEAF0E18BCE240002457D0 /* Foundation.framework */,
+				A7CEAF1018BCE240002457D0 /* CoreGraphics.framework */,
+				A7CEAF1218BCE240002457D0 /* UIKit.framework */,
+				A7CEAF2D18BCE240002457D0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7CEAF1418BCE240002457D0 /* NonNPN-SPDY Test */ = {
+			isa = PBXGroup;
+			children = (
+				A7CEAF4318BCE260002457D0 /* SPDY */,
+				A7CEAF1D18BCE240002457D0 /* SPAppDelegate.h */,
+				A7CEAF1E18BCE240002457D0 /* SPAppDelegate.m */,
+				A7CEAF2018BCE240002457D0 /* Main.storyboard */,
+				A7CEAF2318BCE240002457D0 /* SPViewController.h */,
+				A7CEAF2418BCE240002457D0 /* SPViewController.m */,
+				A7CEAF2618BCE240002457D0 /* Images.xcassets */,
+				A7CEAF1518BCE240002457D0 /* Supporting Files */,
+				A7CEAF7918BCE2C4002457D0 /* SPDYClient.h */,
+				A7CEAF7A18BCE2C4002457D0 /* SPDYClient.m */,
+			);
+			path = "NonNPN-SPDY Test";
+			sourceTree = "<group>";
+		};
+		A7CEAF1518BCE240002457D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7CEAF1618BCE240002457D0 /* NonNPN-SPDY Test-Info.plist */,
+				A7CEAF1718BCE240002457D0 /* InfoPlist.strings */,
+				A7CEAF1A18BCE240002457D0 /* main.m */,
+				A7CEAF1C18BCE240002457D0 /* NonNPN-SPDY Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7CEAF3318BCE240002457D0 /* NonNPN-SPDY TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7CEAF3918BCE240002457D0 /* NonNPN_SPDY_TestTests.m */,
+				A7CEAF3418BCE240002457D0 /* Supporting Files */,
+			);
+			path = "NonNPN-SPDY TestTests";
+			sourceTree = "<group>";
+		};
+		A7CEAF3418BCE240002457D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7CEAF3518BCE240002457D0 /* NonNPN-SPDY TestTests-Info.plist */,
+				A7CEAF3618BCE240002457D0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7CEAF4318BCE260002457D0 /* SPDY */ = {
+			isa = PBXGroup;
+			children = (
+				A7CEAF4418BCE260002457D0 /* NSURLRequest+SPDYURLRequest.h */,
+				A7CEAF4518BCE260002457D0 /* NSURLRequest+SPDYURLRequest.m */,
+				A7CEAF4618BCE260002457D0 /* SPDYCommonLogger.h */,
+				A7CEAF4718BCE260002457D0 /* SPDYCommonLogger.m */,
+				A7CEAF4818BCE260002457D0 /* SPDYDefinitions.h */,
+				A7CEAF4918BCE260002457D0 /* SPDYError.h */,
+				A7CEAF4A18BCE260002457D0 /* SPDYFrame.h */,
+				A7CEAF4B18BCE260002457D0 /* SPDYFrame.m */,
+				A7CEAF4C18BCE260002457D0 /* SPDYFrameDecoder.h */,
+				A7CEAF4D18BCE260002457D0 /* SPDYFrameDecoder.m */,
+				A7CEAF4E18BCE260002457D0 /* SPDYFrameEncoder.h */,
+				A7CEAF4F18BCE260002457D0 /* SPDYFrameEncoder.m */,
+				A7CEAF5018BCE260002457D0 /* SPDYHeaderBlockCompressor.h */,
+				A7CEAF5118BCE260002457D0 /* SPDYHeaderBlockCompressor.m */,
+				A7CEAF5218BCE260002457D0 /* SPDYHeaderBlockDecompressor.h */,
+				A7CEAF5318BCE260002457D0 /* SPDYHeaderBlockDecompressor.m */,
+				A7CEAF5418BCE260002457D0 /* SPDYLogger.h */,
+				A7CEAF5518BCE260002457D0 /* SPDYOrigin.h */,
+				A7CEAF5618BCE260002457D0 /* SPDYOrigin.m */,
+				A7CEAF5718BCE260002457D0 /* SPDYProtocol.h */,
+				A7CEAF5818BCE260002457D0 /* SPDYProtocol.m */,
+				A7CEAF5918BCE260002457D0 /* SPDYSession.h */,
+				A7CEAF5A18BCE260002457D0 /* SPDYSession.m */,
+				A7CEAF5B18BCE260002457D0 /* SPDYSessionManager.h */,
+				A7CEAF5C18BCE260002457D0 /* SPDYSessionManager.m */,
+				A7CEAF5D18BCE260002457D0 /* SPDYSettingsStore.h */,
+				A7CEAF5E18BCE260002457D0 /* SPDYSettingsStore.m */,
+				A7CEAF5F18BCE260002457D0 /* SPDYSocket.h */,
+				A7CEAF6018BCE260002457D0 /* SPDYSocket.m */,
+				A7CEAF6118BCE260002457D0 /* SPDYStream.h */,
+				A7CEAF6218BCE260002457D0 /* SPDYStream.m */,
+				A7CEAF6318BCE260002457D0 /* SPDYStreamManager.h */,
+				A7CEAF6418BCE260002457D0 /* SPDYStreamManager.m */,
+				A7CEAF6518BCE260002457D0 /* SPDYTLSTrustEvaluator.h */,
+				A7CEAF6618BCE260002457D0 /* SPDYZLibCommon.h */,
+			);
+			path = SPDY;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7CEAF0A18BCE240002457D0 /* NonNPN-SPDY Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CEAF3D18BCE240002457D0 /* Build configuration list for PBXNativeTarget "NonNPN-SPDY Test" */;
+			buildPhases = (
+				A7CEAF0718BCE240002457D0 /* Sources */,
+				A7CEAF0818BCE240002457D0 /* Frameworks */,
+				A7CEAF0918BCE240002457D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NonNPN-SPDY Test";
+			productName = "NonNPN-SPDY Test";
+			productReference = A7CEAF0B18BCE240002457D0 /* NonNPN-SPDY Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7CEAF2B18BCE240002457D0 /* NonNPN-SPDY TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CEAF4018BCE240002457D0 /* Build configuration list for PBXNativeTarget "NonNPN-SPDY TestTests" */;
+			buildPhases = (
+				A7CEAF2818BCE240002457D0 /* Sources */,
+				A7CEAF2918BCE240002457D0 /* Frameworks */,
+				A7CEAF2A18BCE240002457D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CEAF3218BCE240002457D0 /* PBXTargetDependency */,
+			);
+			name = "NonNPN-SPDY TestTests";
+			productName = "NonNPN-SPDY TestTests";
+			productReference = A7CEAF2C18BCE240002457D0 /* NonNPN-SPDY TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7CEAF0318BCE240002457D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = imchao;
+				TargetAttributes = {
+					A7CEAF2B18BCE240002457D0 = {
+						TestTargetID = A7CEAF0A18BCE240002457D0;
+					};
+				};
+			};
+			buildConfigurationList = A7CEAF0618BCE240002457D0 /* Build configuration list for PBXProject "NonNPN-SPDY Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7CEAF0218BCE240002457D0;
+			productRefGroup = A7CEAF0C18BCE240002457D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7CEAF0A18BCE240002457D0 /* NonNPN-SPDY Test */,
+				A7CEAF2B18BCE240002457D0 /* NonNPN-SPDY TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7CEAF0918BCE240002457D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CEAF2718BCE240002457D0 /* Images.xcassets in Resources */,
+				A7CEAF1918BCE240002457D0 /* InfoPlist.strings in Resources */,
+				A7CEAF2218BCE240002457D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CEAF2A18BCE240002457D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CEAF3818BCE240002457D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7CEAF0718BCE240002457D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CEAF7B18BCE2C4002457D0 /* SPDYClient.m in Sources */,
+				A7CEAF7318BCE260002457D0 /* SPDYSocket.m in Sources */,
+				A7CEAF7118BCE260002457D0 /* SPDYSessionManager.m in Sources */,
+				A7CEAF6B18BCE260002457D0 /* SPDYFrameEncoder.m in Sources */,
+				A7CEAF7518BCE260002457D0 /* SPDYStreamManager.m in Sources */,
+				A7CEAF7418BCE260002457D0 /* SPDYStream.m in Sources */,
+				A7CEAF6C18BCE260002457D0 /* SPDYHeaderBlockCompressor.m in Sources */,
+				A7CEAF7218BCE260002457D0 /* SPDYSettingsStore.m in Sources */,
+				A7CEAF6818BCE260002457D0 /* SPDYCommonLogger.m in Sources */,
+				A7CEAF7018BCE260002457D0 /* SPDYSession.m in Sources */,
+				A7CEAF6F18BCE260002457D0 /* SPDYProtocol.m in Sources */,
+				A7CEAF6918BCE260002457D0 /* SPDYFrame.m in Sources */,
+				A7CEAF6A18BCE260002457D0 /* SPDYFrameDecoder.m in Sources */,
+				A7CEAF6718BCE260002457D0 /* NSURLRequest+SPDYURLRequest.m in Sources */,
+				A7CEAF6E18BCE260002457D0 /* SPDYOrigin.m in Sources */,
+				A7CEAF1B18BCE240002457D0 /* main.m in Sources */,
+				A7CEAF2518BCE240002457D0 /* SPViewController.m in Sources */,
+				A7CEAF6D18BCE260002457D0 /* SPDYHeaderBlockDecompressor.m in Sources */,
+				A7CEAF1F18BCE240002457D0 /* SPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CEAF2818BCE240002457D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CEAF3A18BCE240002457D0 /* NonNPN_SPDY_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7CEAF3218BCE240002457D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CEAF0A18BCE240002457D0 /* NonNPN-SPDY Test */;
+			targetProxy = A7CEAF3118BCE240002457D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7CEAF1718BCE240002457D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CEAF1818BCE240002457D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7CEAF2018BCE240002457D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CEAF2118BCE240002457D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7CEAF3618BCE240002457D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CEAF3718BCE240002457D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7CEAF3B18BCE240002457D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7CEAF3C18BCE240002457D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7CEAF3E18BCE240002457D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NonNPN-SPDY Test/NonNPN-SPDY Test-Prefix.pch";
+				INFOPLIST_FILE = "NonNPN-SPDY Test/NonNPN-SPDY Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7CEAF3F18BCE240002457D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NonNPN-SPDY Test/NonNPN-SPDY Test-Prefix.pch";
+				INFOPLIST_FILE = "NonNPN-SPDY Test/NonNPN-SPDY Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A7CEAF4118BCE240002457D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NonNPN-SPDY Test.app/NonNPN-SPDY Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NonNPN-SPDY Test/NonNPN-SPDY Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NonNPN-SPDY TestTests/NonNPN-SPDY TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A7CEAF4218BCE240002457D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NonNPN-SPDY Test.app/NonNPN-SPDY Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NonNPN-SPDY Test/NonNPN-SPDY Test-Prefix.pch";
+				INFOPLIST_FILE = "NonNPN-SPDY TestTests/NonNPN-SPDY TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7CEAF0618BCE240002457D0 /* Build configuration list for PBXProject "NonNPN-SPDY Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CEAF3B18BCE240002457D0 /* Debug */,
+				A7CEAF3C18BCE240002457D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CEAF3D18BCE240002457D0 /* Build configuration list for PBXNativeTarget "NonNPN-SPDY Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CEAF3E18BCE240002457D0 /* Debug */,
+				A7CEAF3F18BCE240002457D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7CEAF4018BCE240002457D0 /* Build configuration list for PBXNativeTarget "NonNPN-SPDY TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CEAF4118BCE240002457D0 /* Debug */,
+				A7CEAF4218BCE240002457D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7CEAF0318BCE240002457D0 /* Project object */;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "test-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "spdy.js",
+  "dependencies": {
+    "spdy": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
