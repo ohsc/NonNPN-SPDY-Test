@@ -18,7 +18,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        SPDYConfiguration *configuration = [[SPDYConfiguration alloc] init];
+        SPDYConfiguration *configuration = [SPDYConfiguration defaultConfiguration];
         NSMutableDictionary *tlsSettings = [NSMutableDictionary dictionary];
         [tlsSettings setObject:(NSString *)kCFBooleanFalse forKey:(NSString *)kCFStreamSSLValidatesCertificateChain];
         [configuration setValue:tlsSettings forKey:@"tlsSettings"];
